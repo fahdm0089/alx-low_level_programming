@@ -5,13 +5,13 @@
  *
  * Describtion: print alphapet in lowercase then in uppercase
  *
- * return always 0 (successs)
+ * return Always 0 (successs)
 */
 
 int main(void)
 {
-	char ch = 'a'
-	char CH = 'A'
+	char ch = 'a';
+	char CH = 'A';
 
 	/*prints a - z*/
 	while (ch <= 'z')
@@ -30,5 +30,3 @@ int main(void)
 
 	return (0);
 }
-
-
