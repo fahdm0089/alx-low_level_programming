@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+/**
+ * main -ENTRY point
+ *
+ * DEScribtion: print all alphabet letters except q and e
+ *
+ * Return: Always 0 (success)
+*/
+
+int main(void)
+{
+	char = 'a';
+
+	while (ch <= 'z')
+	{
+		if (ch == 'e' || ch == 'q')
+			ch++;
+		putchar(ch);
+	}
+	putchar('\n');
+
+	return (0);
+}
