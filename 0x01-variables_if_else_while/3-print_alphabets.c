@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - printing alphabets in lower and uppercase
  *
- * Describtion: print alphapet in lowercase then in uppercase
+ * Describtion: print the alphabet in lowecase and uppercase
  *
- * return Always 0 (successs)
+ * Return: always 0 (success)
 */
 
 int main(void)
@@ -13,14 +13,11 @@ int main(void)
 	char ch = 'a';
 	char CH = 'A';
 
-	/*prints a - z*/
 	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
-
-	/*print A -Z*/
 	while (CH <= 'Z')
 	{
 		putchar(CH);
