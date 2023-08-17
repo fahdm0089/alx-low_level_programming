@@ -5,18 +5,18 @@
  *
  * @size: size of the triangle
  *
- * Return: Always 0 (success)
+ * Return: void
 */
 
 void print_triangle(int size)
 {
-	int hight, base;
+	int height, base;
 
 	if (size <= 0)
 		_putchar('\n');
 	else
 	{
-		for (height = 1; height <= size; hight++)
+		for (height = 1; height <= size; height++)
 		{
 			for (base = 1; base <= size; base++)
 			{
