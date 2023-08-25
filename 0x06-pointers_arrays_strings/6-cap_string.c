@@ -2,17 +2,17 @@
 #include <stdio.h>
 
 /**
- * islower - detrmine whether ASCI is lowercase
+ * isLower - detrmine whether ASCI is lowercase
  * @c: charchter
  * Return: 1 if true, 0 if false
 */
 int isLower(char c)
 {
-	return (c >= 97 && c <= 122);
+	return (c >= 'a' && c <= 'z');
 }
 
 /**
- * isDelimiter - deterines whether ascii is delimiter
+ * isDelimiter - deterines whether ASCII is delimiter
  * @c: charchter
  * Return: 1 if true, 0 if false
 */
@@ -43,14 +43,17 @@ char *cap_string(char *s)
 	{
 		if (isDelimiter(*s))
 			foundDelimit = 1;
-		else if (isLower(*s) && foundDelimit)
-		{
-			*s -= 32;
-			foundDelimit = 0;
-		}
-		else
-			foundDelimit = 0;
-		s++;
 	}
-	return (ptr);
+	else if (isLower(*s) && foundDelimit)
+	{
+		*s -= 32;
+		foundDelimit = 0;
+	}
+	else
+	{
+		foundDelimit = 0;
+	}
+	s++;
+}
+return (ptr);
 }
