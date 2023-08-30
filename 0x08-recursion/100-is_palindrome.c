@@ -2,7 +2,7 @@
 
 /**
  * last_index - returns the last index of a string (counts the null char)
- * @s: pointer the string
+ * @s: pointer to the string
  * Return: int
 */
 
@@ -45,5 +45,5 @@ int check(char *s, int start, int end, int mod)
 	else if (s[start] != s[end])
 		return (0);
 	else
-		return (checks(s, start + 1, end - 1, mod));
+		return (check(s, start + 1, end - 1, mod));
 }
