@@ -2,7 +2,7 @@
 
 /**
  * op_add - adds two integrs
- * @: the first int
+ * @a: the first int
  * @b: the second int
  *
  * Return: the sum
@@ -11,18 +11,20 @@ int op_add(int a, int b)
 {
 	return (a + b);
 }
+
 /**
- * op_sup - subtracts two integrs
- * @: the first int
+ * op_sub - subtracts two integrs
+ * @a: the first int
  * @b: the second int
- * Return: the differnce
+ *
+ * Return: the diffrence
 */
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
 /**
- * op_mul multiplies two integrs
+ * op_mul -  multiplies two integrs
  * @a: the first int
  * @b: the secont int
  *
