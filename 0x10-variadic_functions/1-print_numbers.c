@@ -4,7 +4,7 @@
  * print_numbers - prints numbers with separator
  * @separator: the string separator
  * @...: the integers to print
- *
+ *@n: the number of integrs bassed to function
  * Return: void
  *
 */
