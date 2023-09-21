@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdio.h>
 /**
  * _strlen - returns the lennfgt of a string
  * @s: string whose lenght to check
